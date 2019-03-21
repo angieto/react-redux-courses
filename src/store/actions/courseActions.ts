@@ -1,6 +1,6 @@
-export const createCourse = (course: string) => {
+export const createCourse = (course: object) => {
     return {
         type: 'CREATE_COURSE',
-        course
+        course: course
     }
 }
